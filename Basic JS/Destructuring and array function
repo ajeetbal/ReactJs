@@ -1,0 +1,20 @@
+//Destructuring Arrays
+
+const filter=[1,2,4,5];
+[n1,n2]=filter;
+console.log(n1,n2);
+[n1,,n3]=filter;
+console.log(n1,n3);
+1
+2
+1
+4
+******************************************
+const num=[1,234,5,6];
+const doublNumArray=num.map((num)=>{
+  return num*2;
+});
+console.log(doublNumArray);
+(4) [2 ,468 ,10 ,12]
+
+*****************************************
