@@ -1,4 +1,28 @@
+
+//spread operator
 const a=[1,23];
 const b=[...a,12]
 console.log(b)
 =>Array (3)[ 1,23,12 ]
+************************************************************
+const data = {
+  message: 'Hello world',
+};
+
+const detail={
+  ...data,age:23
+};
+
+console.log(o);
+{
+message: "Hello world" ,
+age: 23
+}
+**************************************************************
+//REST Operator
+const filter=(...args) =>{
+  return args.filter(e=>e>5);
+}
+console.log(filter(1,2,6));
+(1) [6]
+*****************************************************
